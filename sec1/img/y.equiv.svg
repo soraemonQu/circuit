@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="background: transparent; background-color: transparent;" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="418px" height="260px" viewBox="-0.5 -0.5 418 260" content="&lt;mxfile&gt;&lt;diagram id=&quot;JPAWFaPJaK9smVx-kNc6&quot; name=&quot;ページ1&quot;&gt;5VlNc9sgEP01nmkP9ujTso+xnaSHdiYzOTQ9ZYhFJKZIqAg7Un99QYCFZMdWYznRTE5ml2VZ9j1YhEfuMiluKcjiHySEeORYYTFyVyPHsa2Zy3+EppSaIJhLRURRqIxqxT36C/VIpd2gEOYNQ0YIZihrKtckTeGaNXSAUvLSNHsmuDlrBiK4p7hfA7yv/YlCFkvtzAlq/TeIoljPbE/V+hKgjZWLPAYheZGqanHu9chdUkKYbCXFEmKRPJ0XmYGbV3p3gVGYsi4DHDlgC/BGrU3FxUq9WJiGVyJnXEpJypWLmCWYSzZv5gxQprsJd6N1NwgLG4vLPBRaPpjCLyFMfC2uCrNzVZrSHaQogQxSpdxfoCYAoBFUKl+qYNiAUWXgFhLukJbc4KUGz1fUig3ctI5CDBjaNsEHikPRzt1uhjuCeHCOpfjuKTeK7O584jdd5GRD11CNMsFqObKdU55kEvY88Yax7lpVkeEwMbwDxJhinpjFM6liqhky/bMhumOcV5v1ihvYs6yoANP9vBVVv/7yS/k4Cha2PQr4+EUlOJXgL7/qeXiEcio1qs3LTKwS0ustZ0Ku6LiFlCG+T7+DJ4jvSI4YIinveyKMkURwU+83waUQ5DEMlQAwioTpGqYV20yWa7dXyoaRTPrKRCxJEYljbgIxP2uosJtQmKOcEZrvWo/CDyUMqIg8v9oplPyGS4KJoHcIn8FGpphvHq1Ve+5V3ovYYHGU5rrXbdJnrkRjF9jWgW2gWXeI8Q2GHaGTf1k6jSWfHEEhdzX+jISyLsebeevYeUfeTM+sT73WnlPFzu5an7xB1ad2WfFauHUtT17Q9LOLr//qFJxLiwKxB6NtkIJLNSeEUBpC59uIzNkQ0fbalwjrjXC37zX29GJwz97hMuI4xmVEVpJPUzvGH3Ab2fH5A24j8yFVlU4VYzaoM+Tk1h9gydBvBx1BV+X9AjWDT2J8HHeqIAP7nu2rgnje8YtHj+DbgwP/6GXRBH9YW7838N3pu4H/f49cB8BvgHbWV8BAUOztAG87cmaXg9E9E8Zub5WdDueBwHgq+W89iPtDkYv1Y7Y0r/8ScK//AQ==&lt;/diagram&gt;&lt;/mxfile&gt;"><defs><style xmlns="http://www.w3.org/1999/xhtml" id="MJX-SVG-styles">
+mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] &gt; svg {
+  overflow: visible;
+  min-height: 1px;
+  min-width: 1px;
+}
+
+mjx-container[jax="SVG"] &gt; svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] &gt; g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] &gt; rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] &gt; line[data-line], svg[data-table] &gt; g &gt; line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] &gt; rect[data-frame], svg[data-table] &gt; g &gt; rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] &gt; .mjx-dashed, svg[data-table] &gt; g &gt; .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] &gt; .mjx-dotted, svg[data-table] &gt; g &gt; .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] &gt; g &gt; svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool &gt; mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool &gt; mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
+  stroke-width: 3;
+}
+</style></defs><g><g><path d="M 11 9.51 L 158 10" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/><ellipse cx="8" cy="9.5" rx="3" ry="3" fill="none" stroke="#000000" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><rect x="98" y="60" width="100" height="20" fill="none" stroke="none" transform="rotate(45,148,70)" pointer-events="all"/><rect x="116" y="60" width="64" height="20" fill="none" stroke="#000000" transform="rotate(45,148,70)" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/><path d="M 98 70 L 116 70 M 180 70 L 198 70" fill="none" stroke="#000000" stroke-miterlimit="10" transform="rotate(45,148,70)" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><g transform="translate(-0.5 -0.5)rotate(45 135.9791847198287 82.02081528017129)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 82px; margin-left: 136px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; "><div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: nowrap; "><font style="font-size: 18px;"><mjx-container class="MathJax" jax="SVG"><svg xmlns="http://www.w3.org/2000/svg" width="8.558ex" height="1.783ex" role="img" focusable="false" viewBox="0 -583 3782.7 788" xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.464ex;"><defs><path id="MJX-7-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/><path id="MJX-7-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/><path id="MJX-7-TEX-N-2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"/><path id="MJX-7-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use data-c="1D466" xlink:href="#MJX-7-TEX-I-1D466"/></g><g data-mml-node="TeXAtom" transform="translate(523,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-7-TEX-N-31"/><use data-c="31" xlink:href="#MJX-7-TEX-N-31" transform="translate(500,0)"/></g></g></g><g data-mml-node="mo" transform="translate(1502.3,0)"><use data-c="2B" xlink:href="#MJX-7-TEX-N-2B"/></g><g data-mml-node="msub" transform="translate(2502.6,0)"><g data-mml-node="mi"><use data-c="1D466" xlink:href="#MJX-7-TEX-I-1D466"/></g><g data-mml-node="TeXAtom" transform="translate(523,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><use data-c="32" xlink:href="#MJX-7-TEX-N-32"/><use data-c="31" xlink:href="#MJX-7-TEX-N-31" transform="translate(500,0)"/></g></g></g></g></g></svg></mjx-container></font></div></div></div></foreignObject><text x="136" y="94" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">\(y_{11}+y_{21}\)</text></switch></g></g><g><rect x="158" y="0" width="100" height="20" fill="none" stroke="none" pointer-events="all"/><rect x="176" y="0" width="64" height="20" fill="none" stroke="#000000" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/><path d="M 158 10 L 176 10 M 240 10 L 258 10" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 27px; margin-left: 208px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; "><div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: nowrap; "><font style="font-size: 18px;"><mjx-container class="MathJax" jax="SVG"><svg xmlns="http://www.w3.org/2000/svg" width="12.33ex" height="1.783ex" role="img" focusable="false" viewBox="0 -583 5449.8 788" xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.464ex;"><defs><path id="MJX-8-TEX-N-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"/><path id="MJX-8-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/><path id="MJX-8-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/><path id="MJX-8-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/><path id="MJX-8-TEX-N-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"/></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><use data-c="2212" xlink:href="#MJX-8-TEX-N-2212"/></g><g data-mml-node="msub" transform="translate(778,0)"><g data-mml-node="mi"><use data-c="1D466" xlink:href="#MJX-8-TEX-I-1D466"/></g><g data-mml-node="TeXAtom" transform="translate(523,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-8-TEX-N-31"/><use data-c="32" xlink:href="#MJX-8-TEX-N-32" transform="translate(500,0)"/></g></g></g><g data-mml-node="mo" transform="translate(2335.9,0)"><use data-c="3D" xlink:href="#MJX-8-TEX-N-3D"/></g><g data-mml-node="mo" transform="translate(3391.7,0)"><use data-c="2212" xlink:href="#MJX-8-TEX-N-2212"/></g><g data-mml-node="msub" transform="translate(4169.7,0)"><g data-mml-node="mi"><use data-c="1D466" xlink:href="#MJX-8-TEX-I-1D466"/></g><g data-mml-node="TeXAtom" transform="translate(523,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><use data-c="32" xlink:href="#MJX-8-TEX-N-32"/><use data-c="31" xlink:href="#MJX-8-TEX-N-31" transform="translate(500,0)"/></g></g></g></g></g></svg></mjx-container></font></div></div></div></foreignObject><text x="208" y="39" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">\(-y_{12}=-y_{21...</text></switch></g></g><g><path d="M 90.12 12.12 L 112.64 34.64" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/><ellipse cx="88" cy="10" rx="3" ry="3" fill="#000000" stroke="#000000" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><path d="M 183.36 105.36 L 208 130" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><rect x="218" y="60" width="100" height="20" fill="none" stroke="none" transform="rotate(-45,268,70)" pointer-events="all"/><rect x="236" y="60" width="64" height="20" fill="none" stroke="#000000" transform="rotate(-45,268,70)" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/><path d="M 218 70 L 236 70 M 300 70 L 318 70" fill="none" stroke="#000000" stroke-miterlimit="10" transform="rotate(-45,268,70)" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><g transform="translate(-0.5 -0.5)rotate(-45 280.0208152801713 82.02081528017129)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 82px; margin-left: 280px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; "><div style="display: inline-block; font-size: 12px; font-family: &quot;Helvetica&quot;; color: light-dark(#000000, #ffffff); line-height: 1.2; pointer-events: all; white-space: nowrap; "><font style="font-size: 18px;"><mjx-container class="MathJax" jax="SVG"><svg xmlns="http://www.w3.org/2000/svg" width="8.558ex" height="1.783ex" role="img" focusable="false" viewBox="0 -583 3782.7 788" xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.464ex;"><defs><path id="MJX-9-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/><path id="MJX-9-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/><path id="MJX-9-TEX-N-2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"/><path id="MJX-9-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use data-c="1D466" xlink:href="#MJX-9-TEX-I-1D466"/></g><g data-mml-node="TeXAtom" transform="translate(523,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><use data-c="32" xlink:href="#MJX-9-TEX-N-32"/><use data-c="32" xlink:href="#MJX-9-TEX-N-32" transform="translate(500,0)"/></g></g></g><g data-mml-node="mo" transform="translate(1502.3,0)"><use data-c="2B" xlink:href="#MJX-9-TEX-N-2B"/></g><g data-mml-node="msub" transform="translate(2502.6,0)"><g data-mml-node="mi"><use data-c="1D466" xlink:href="#MJX-9-TEX-I-1D466"/></g><g data-mml-node="TeXAtom" transform="translate(523,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-9-TEX-N-31"/><use data-c="32" xlink:href="#MJX-9-TEX-N-32" transform="translate(500,0)"/></g></g></g></g></g></svg></mjx-container></font></div></div></div></foreignObject><text x="280" y="94" fill="light-dark(#000000, #ffffff)" font-family="&quot;Helvetica&quot;" font-size="12px" text-anchor="middle">\(y_{22}+y_{12}\)</text></switch></g></g><g><path d="M 208 130 L 232.64 105.36" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><path d="M 258 10 L 405 10" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/><ellipse cx="408" cy="10" rx="3" ry="3" fill="none" stroke="#000000" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><path d="M 303.36 34.64 L 325.88 12.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/><ellipse cx="328" cy="10" rx="3" ry="3" fill="#000000" stroke="#000000" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><path d="M 208 133 L 208 247" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/><ellipse cx="208" cy="130" rx="3" ry="3" fill="#000000" stroke="#000000" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/><ellipse cx="208" cy="250" rx="3" ry="3" fill="#000000" stroke="#000000" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><path d="M 11 250 L 405 250" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/><ellipse cx="8" cy="250" rx="3" ry="3" fill="none" stroke="#000000" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/><ellipse cx="408" cy="250" rx="3" ry="3" fill="none" stroke="#000000" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g></g><switch><g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/><a transform="translate(0,-5)" xlink:href="https://www.drawio.com/doc/faq/svg-export-text-problems" target="_blank"><text text-anchor="middle" font-size="10px" x="50%" y="100%">Text is not SVG - cannot display</text></a></switch></svg>

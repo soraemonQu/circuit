@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique&family=Zen+Kurenaido&display=swap");
+
+body {
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Zen Antique", sans-serif;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  margin-top: 0.5em;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: none;
+}
+
+td,
+th {
+  border: none;
+  border-left: 1px solid;
+}
+
+td {
+  border-top: 1px solid;
+}
+
+td:first-child,
+th:first-child {
+  border-left: none;
+}
+
+img {
+  max-width: 8cm;
+  margin: 0 auto;
+  display: block;
+}
+
+table img {
+  max-width: 6cm;
+  margin: 0;
+  display: inline-block;
+}
+
+.sm img {
+  max-width: 6cm;
+}
+
+.original img {
+  max-width: initial;
+}
