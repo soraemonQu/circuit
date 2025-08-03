@@ -1,6 +1,6 @@
 # 1. 行列
 
-第一回～第三回の内容。
+第一回～第三回、第十三回の内容。
 
 ## 行列を求める
 
@@ -60,12 +60,12 @@ $1-1'$ および $2-2'$ には仮想的に電源 $V_1$ および $V_2$ が接続
 
 ![ブラックボックス](img/blackbox.svg)
 
-| 行列 | 定義                                                                              | $Z$ 行列との変換                                                         | 相反条件           | 等価回路                            |
-| ---- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------ | ----------------------------------- |
-| $Z$  | $\begin{pmatrix}V_1\cr V_2\end{pmatrix}=Z\begin{pmatrix}I_1\cr I_2\end{pmatrix}$  |                                                                          | $z_{12} = z_{21}$  | ![Z行列の等価回路](img/z.equiv.svg) |
-| $Y$  | $\begin{pmatrix}I_1\cr I_2\end{pmatrix}=Y\begin{pmatrix}V_1\cr V_2\end{pmatrix}$  | $\|Z\|^{-1}\begin{pmatrix}z_{22}&-z_{12}\cr -z_{21}&z_{11}\end{pmatrix}$ | $y_{12} = y_{21}$  | ![Y行列の等価回路](img/y.equiv.svg) |
-| $K$  | $\begin{pmatrix}V_1\cr I_1\end{pmatrix}=K\begin{pmatrix}V_2\cr -I_2\end{pmatrix}$ | $z_{21}^{-1}\begin{pmatrix}z_{11}&\|Z\|\cr 1&z_{22}\end{pmatrix}$        | $\|K\| = 1$        | ![K行列の等価回路](img/k.equiv.svg) |
-| $H$  | $\begin{pmatrix}V_1\cr I_2\end{pmatrix}=K\begin{pmatrix}I_1\cr V_2\end{pmatrix}$  | $z_{22}^{-1}\begin{pmatrix}\|Z\|&z_{12}\cr -z_{21}&1\end{pmatrix}$       | $h_{12} = -h_{21}$ | ![H行列の等価回路](img/h.equiv.svg) |
+| 行列 | 定義                                                                                | $Z$ 行列との変換                                                         | 相反条件           | 等価回路                            |
+| ---- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------ | ----------------------------------- |
+| $Z$  | $\begin{pmatrix}V_1\cr V_2\end{pmatrix} = Z\begin{pmatrix}I_1\cr I_2\end{pmatrix}$  |                                                                          | $z_{12} = z_{21}$  | ![Z行列の等価回路](img/z.equiv.svg) |
+| $Y$  | $\begin{pmatrix}I_1\cr I_2\end{pmatrix} = Y\begin{pmatrix}V_1\cr V_2\end{pmatrix}$  | $\|Z\|^{-1}\begin{pmatrix}z_{22}&-z_{12}\cr -z_{21}&z_{11}\end{pmatrix}$ | $y_{12} = y_{21}$  | ![Y行列の等価回路](img/y.equiv.svg) |
+| $K$  | $\begin{pmatrix}V_1\cr I_1\end{pmatrix} = K\begin{pmatrix}V_2\cr -I_2\end{pmatrix}$ | $z_{21}^{-1}\begin{pmatrix}z_{11}&\|Z\|\cr 1&z_{22}\end{pmatrix}$        | $\|K\| = 1$        | ![K行列の等価回路](img/k.equiv.svg) |
+| $H$  | $\begin{pmatrix}V_1\cr I_2\end{pmatrix} = H\begin{pmatrix}I_1\cr V_2\end{pmatrix}$  | $z_{22}^{-1}\begin{pmatrix}\|Z\|&z_{12}\cr -z_{21}&1\end{pmatrix}$       | $h_{12} = -h_{21}$ | ![H行列の等価回路](img/h.equiv.svg) |
 
 ::: page
 :::
@@ -208,6 +208,8 @@ $$
 
 ![Y-Δ 変換](img/y.delta.svg)
 
+### $Y$ 型回路
+
 $Y$ 型回路は $Z$ 行列の等価回路であるため
 
 $$
@@ -215,57 +217,91 @@ $$
   Z_1 = z_{11} - z_{21} \cr
   Z_2 = z_{22} - z_{12} \cr
   Z_3 = z_{12} = z_{21}
-\end{cases} \iff Z =
+\end{cases} \iff Z_Y =
 \begin{pmatrix}
   Z_1 + Z_3 & Z_3 \cr
   Z_3 & Z_2 + Z_3
 \end{pmatrix}
 $$
 
-ただしその行列式は
+その行列式は
 
 $$
-|Z| = (Z_1 + Z_3)(Z_2 + Z_3) - Z_3^2 = Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1
+|Z_Y| = (Z_1 + Z_3)(Z_2 + Z_3) - Z_3^2 = Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1
 $$
 
 ゆえに $Y = Z^{-1}$ より
 
 $$
-Y = \frac{1}{Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1}
+Y_Y = \frac{1}{Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1}
 \begin{pmatrix}
   Z_2 + Z_3 & -Z_3 \cr
   -Z_3 & Z_1 + Z_3
 \end{pmatrix}
 $$
 
-一方で $\Delta$ 型回路は $Y$ 行列の等価回路であるため
+### $\Delta$ 型回路
+
+$\Delta$ 型回路は $Y$ 行列の等価回路であるため
 
 $$
 \begin{cases}
   Y_{12} = -y_{12} = -y_{21} \cr
   Y_{23} = y_{22} - y_{12} \cr
   Y_{31} = y_{11} - y_{21}
-\end{cases} \iff Y =
+\end{cases} \iff Y_\Delta =
 \begin{pmatrix}
   Y_{31} + Y_{12} & - Y_{12} \cr
   -Y_{12} & Y_{23} + Y_{12}
 \end{pmatrix}
 $$
 
-それぞれを比較し、 $Y_{ij}$ は得られた式の分子と分母に $Y_1 Y_2 Y_3$ を乗じて次が得られる。
+その行列式は
 
 $$
-\begin{cases}
-  Z_1 = Y_{23}(Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1) = \dfrac{Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1}{Z_{23}} \cr
-  Z_2 = Y_{31}(Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1) = \dfrac{Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1}{Z_{31}} \cr
-  Z_3 = Y_{12}(Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1) = \dfrac{Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1}{Z_{12}}
-\end{cases}
+|Y_\Delta| = (Y_{31} + Y_{12})(Y_{23} + Y_{12}) - (-Y_{12})^2 = Y_{12}Y_{23} + Y_{23}Y_{31} + Y_{31}Y_{12}
 $$
 
+ゆえに $Z = Y^{-1}$ より
+
 $$
-\begin{cases}
-  Y_{12} = \dfrac{Z_3}{Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1} = \dfrac{Y_1 Y_2}{Y_1 + Y_2 + Y_3} \cr
-  Y_{23} = \dfrac{Z_1}{Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1} = \dfrac{Y_2 Y_3}{Y_1 + Y_2 + Y_3} \cr
-  Y_{31} = \dfrac{Z_2}{Z_1 Z_2 + Z_2 Z_3 + Z_3 Z_1} = \dfrac{Y_3 Y_1}{Y_1 + Y_2 + Y_3}
-\end{cases}
+Z_\Delta = \frac{1}{Y_{12}Y_{23} + Y_{23}Y_{31} + Y_{31}Y_{12}}
+\begin{pmatrix}
+  Y_{23} + Y_{12} & Y_{12} \cr
+  Y_{12} & Y_{31} + Y_{12}
+\end{pmatrix}
 $$
+
+ただし以下に注意せよ。
+
+$$
+\det(\lambda A) = \lambda^n\det A, \quad \det(\lambda A)^{-1} = (\lambda^n\det A)^{-1}
+$$
+
+::: page
+:::
+
+### $Y - \Delta$ 変換表
+
+$Z_Y - Y_\Delta$ 変換から以下が導出できる
+
+|           | $Y \to \Delta$                                     | $\Delta \to Y$                                                     |
+| --------- | -------------------------------------------------- | ------------------------------------------------------------------ |
+| $Z \to Z$ | $Z_{ij} = \dfrac{Z_iZ_j + Z_jZ_k + Z_kZ_i}{Z_{k}}$ | $Y_k = \dfrac{Z_iZ_j}{Z_{ij} + Z_{jk} + Z_{ki}}$                   |
+| $Z \to Y$ | $Y_{ij} = \dfrac{Z_{k}}{Z_iZ_j + Z_jZ_k + Z_kZ_i}$ | $Y_k = \dfrac{Z_{ij} + Z_{jk} + Z_{ki}}{Z_iZ_j}$                   |
+| $Y \to Z$ | $Z_{ij} = \dfrac{Y_i + Y_j + Y_k}{Y_iY_j}$         | $Z_k = \dfrac{Y_{ij}}{Y_{ij}Y_{jk} + Y_{jk}Y_{ki} + Y_{ki}Y_{ij}}$ |
+| $Y \to Y$ | $Z_{ij} = \dfrac{Y_iY_j}{Y_i + Y_j + Y_k}$         | $Y_k = \dfrac{Y_{ij}Y_{jk} + Y_{jk}Y_{ki} + Y_{ki}Y_{ij}}{Y_{ij}}$ |
+
+## 三相交流
+
+![三相交流のフェーザ図](img/three.ph.svg)
+
+三相交流とは、以下の三つの電源により電力を供給する方式である。
+
+$$
+E_a = E, \quad E_b = Ee^{-j\frac23\pi}, \quad E_c = Ee^{-j\frac43\pi}
+$$
+
+この実現方法には $Y$ 型結線と $\Delta$ 型結線の二つがある。
+
+![三相交流の回路図](img/y.delta.three.svg)

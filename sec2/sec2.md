@@ -190,7 +190,7 @@ $$
 $Z = R + jX ; Z_0 = R_0 + jX_0 ; R, R_0 > 0$ と仮定すれば
 
 $$
-P = \frac{R |E|^2}{(R + R_0)^2 + (Z + Z_0)^2} \stackrel{X + X_0 = 0}{\leq} \frac{R |E|^2}{(R + R_0)^2} = \frac{|E|^2}{\left(R + \dfrac{R_0^2}{R}\right) + 2R_0} \stackrel{R = R_0}{\leq} \frac{|E|^2}{4R_0}
+P = \frac{R |E|^2}{(R + R_0)^2 + (X + X_0)^2} \stackrel{X + X_0 = 0}{\leq} \frac{R |E|^2}{(R + R_0)^2} = \frac{|E|^2}{\left(R + \dfrac{R_0^2}{R}\right) + 2R_0} \stackrel{R = R_0}{\leq} \frac{|E|^2}{4R_0}
 $$
 
 これより $Z = \overline{Z_0}$ のときに $P$ は最大値 $\dfrac{|E|^2}{4 \mathrm{Re}\left[Z\right]}$ をとる。
