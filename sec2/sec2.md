@@ -149,11 +149,11 @@ $$
 ノートンの定理を適用してみる。具体値の計算は前節を参照。
 
 1. $N \gets Z_G$ としたとき
-   - $Z_{in} = Z_{out}' = \langle Z + Z_L \rangle = z_{11} - \dfrac{z_{12} z_{21}}{z_{22} + Z_L}$
+   - $Z_{in} = Z_{out}' = \langle Z + Z_L \rangle = z_{11} - \dfrac{z_{12} z_{21}}{z_{22} + Z_L} = \dfrac{AZ_L + B}{CZ_L + D}$
    - $V_{open}' = E$ ($\because$ 断線により回路に電流は流れず抵抗で電源電圧が降下しないから)
 2. $N \gets Z_L$ としたとき
-   - $Z_{out} = \langle Z + Z_G \rangle = z_{22} - \dfrac{z_{12} z_{21}}{z_{11} + Z_G}$
-   - $V_{open} = \dfrac{z_{21}}{z_{11} + Z_G} E$
+   - $Z_{out} = \langle Z + Z_G \rangle = z_{22} - \dfrac{z_{12} z_{21}}{z_{11} + Z_G}  = \dfrac{DZ_G + B}{CZ_G + A}$
+   - $V_{open} = \dfrac{z_{21}}{z_{11} + Z_G} E  = \dfrac{1}{CZ_G + A}E$
 
 これより等価回路は次のように書ける。
 

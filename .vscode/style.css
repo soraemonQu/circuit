@@ -55,6 +55,10 @@ table img {
   display: inline-block;
 }
 
+.sm {
+  font-size: 0.6em;
+}
+
 .sm img {
   max-width: 6cm;
 }
